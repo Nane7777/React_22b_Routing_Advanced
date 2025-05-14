@@ -5,7 +5,7 @@ function EventsPage() {
     const events = useLoaderData();
 
     return (
-            <EventsList events={events}/>
+            <EventsList events={events} />
     );
 }
 
